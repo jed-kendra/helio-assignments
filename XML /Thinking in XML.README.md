@@ -1,16 +1,14 @@
-<xml>
-    <body>
-    <movies>Star Wars Films</movies>
-        <title>Star Wars Episode I - The Phantom Menace</title>
-            <description>Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory.</description>
-    
-        <title>Star Wars Episode II- Attack of the Clones</title>
-            <description>Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.</description>
+How do you think XML relates to HTML?
+It is similiar to HTML, but you can use your own tags.
 
-        <title>Star Wars Episode III - Revenge of the Sith</title>
-            <description>Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.</description>
+What are some benefits of something like HTML using XML's syntax? 
+The tags will be better descriptors.
 
-        </xml>
+What are some disadvantages? 
+It will not be as uniform as HTML.  HTML has universal tags so others can read it easily.  Using your own tags may be confusing for others and it also may make it harder to find certain parts of the code when you want to work on it.
+
+
+
         
 
 
