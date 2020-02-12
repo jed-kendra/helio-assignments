@@ -36,7 +36,7 @@ myDog.speak()
 myDog.name = "Max"
 myDog.sayName()
 
-
+//classes assignment
 
     
 
