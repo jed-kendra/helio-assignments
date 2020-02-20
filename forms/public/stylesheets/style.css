@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: darkblue;
+  text-align: center;
+  background-color: gray;
+}
+
+p {
+  font: 50 px bold;
+  color: darkblue
+}
+
+a {
+  color: #00B7FF;
+}
+
+form {
+  color: #00B7FF;
+}
+
+ul {
+  color: yellow;
+  text-align: center
+}

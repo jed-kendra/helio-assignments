@@ -1,0 +1,141 @@
+body {
+    background-image: url("http://getwallpapers.com/wallpaper/full/9/0/3/619745.jpg");
+}
+
+.head1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(5, 56, 133);
+    border: 2px;
+}
+
+.bio{
+  position: absolute;
+  top: 90px;
+  bottom: 75px;
+  left: 15px;
+  width: 375px;
+  height: 650px;
+  border: 4px solid rgb(4, 107, 126);
+  padding: 15px;
+  color: white;
+  background-color: turquoise;
+}
+
+.work{
+    position: absolute;
+    top: 90px;
+    left: 475px;
+    width: 500px;
+    height: 200px;
+    border: 4px solid rgb(4, 107, 126);
+    padding: 2px;
+    color: white;
+    background-color: turquoise;
+    text-align: center;
+  }
+
+.education{
+  position: absolute;
+  top: 327px;
+  left: 475px;
+  width: 500px;
+  height: 200px;
+  border: 4px solid rgb(4, 107, 126);
+  padding: 2px;
+  color: white;
+  background-color: turquoise;
+  text-align: center
+}
+
+.skill{
+  position: absolute;
+  left: 475px;
+  right: 15px;
+  width: 500px;
+  top: 563px;
+  height: 203px;
+  border: 4px solid rgb(4, 107, 126);
+  padding: 2px;
+  color: white;
+  background-color: turquoise;
+  text-align: center;
+  border-spacing: 2px;
+}
+
+.contact{
+    position: absolute;
+    top: 90px;
+    right: 15px;
+    width: 375px;
+    height: 640px;
+    border: 4px solid rgb(4, 107, 126);
+    padding: 20px;
+    color: white;
+    background-color: turquoise;
+    text-align: justify;
+}
+
+#secondtest {
+  padding-top: 25px ;
+}
+
+#contactinfo {
+    padding-top: 100px;
+}
+
+.contactlinks {
+  border: 0px;
+}
+    
+.tables {
+    text-align: center;
+    background-color: turquoise;
+    margin: 0px;
+}
+
+.columnhead {
+    font-weight: bolder;
+
+}
+
+.skills {
+    width: 450px;
+}
+
+caption {
+  color: rgb(4, 107, 126);
+  font-size: x-large;
+  padding: 3px;
+  font-weight: bolder
+}
+
+.testimonial {
+  color: rgb(4, 107, 126);
+  font-size: x-large;
+  padding: 0px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0px;
+}
+
+  th {
+  font-weight: bold;
+  padding: 2px;
+
+  }
+
+.one {
+  color: white;
+  font-size: large;
+}
+
+.photo {
+  padding: 15px;
+}
+
+p.italic {
+    font-style: italic;
+  }
+    

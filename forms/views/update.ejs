@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   
+  </head>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+
+  <body>
+    <h1>Update User Information</h1>
+    <ul style="list-style-type:none;">
+        <% users.forEach((user,index) => { %>
+                <li><%- `${index}-${user.fName}` %></li>
+
+        <% }) %>
+    </ul>
+   
+        
+    <form  action="/users/update" method="POST">
+        ID <input type="number" name="id"><br>
+        First Name <input type="text" name="firstname"><br>
+        Last Name <input type="text" name="lastname"><br> 
+        Password <input type="text" name="password"><br>
+        Email <input type="text" name="email">        
+        <br>
+        <br>
+        <input type="submit">
+    
+    </form>
+    <p><%= user %></p>
+
+  </body>
+</html>
