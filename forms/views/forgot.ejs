@@ -7,19 +7,23 @@
 </head>
 
   <body>
+
+    <ul style="list-style-type:none;">
+        <% users.forEach((user,index) => { %>
+                <li><%- `${index}-${user.email}` %></li>
+        <% }) %>
+    </ul>
+
     <h1>Forgot Password</h1>
-    <p></p>
         
-    <form  action="/users" method="POST">
-        
-        First Name <input type="text" name="firstname"><br>
-        Last Name <input type="text" name="lastname"><br> 
-        Password <input type="text" name="password">
-        <br>
+    <form  action="/users/forgot" method="POST"> 
+        Email <input type="text" name="email"><br> 
         <br>
         <input type="submit">
     
     </form>
+    
+    <h4> <%= response %> </h4>
 
   </body>
 </html>
