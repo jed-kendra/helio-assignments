@@ -28,34 +28,3 @@ This is when an object is there, but you are not able to see it (its always ther
 Where can your Database live?
 A database can live on the same computer as your web-server (ie. express server on the same computer as database).  It could be in the cloud, using web services such as AWS or AZURE.  It could also be on a computer seperate from the web server, such as the old way of having a server room with a separate web server and database server.
 
-JSON Schema
-
-{
-   "$schema": "http://json-schema.org/draft-04/schema#",
-   "title": "User",
-   "description": "A person",
-   "type": "object",
-   "properties":
-   {
-      "fname":
-      {
-         "description": "A person's first name",
-         "type": "string"
-      },
-      "lname":
-      {
-         "description": "A person's last name",
-         "type": "string",
-      }                                                                        "email":
-      {
-         "description": "A person's preferred email address",
-         "type": "string",
-      } 
-       "password":
-      {
-         "description": "A person's entered password",
-         "type": "string",
-      }            
-   },
-   "required": ["name", "age"]    
-}

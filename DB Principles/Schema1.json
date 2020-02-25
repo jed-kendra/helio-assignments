@@ -1,0 +1,54 @@
+{
+   "$schema": "http://json-schema.org/draft-07/schema",
+   "$id": "http://localhost:3001",
+   "title": "User",
+   "description": "A person",
+   "type": "object",
+   "properties":
+   {
+      "_id":
+      {
+         "description": "ID as assigned by mongo",
+         "type": "string"
+      },
+      "fname":
+      {
+         "description": "First name of user",
+         "type": "string"
+      },
+      "lname":
+      {
+         "description": "Last name of user",
+         "type": "string"
+      },  
+      "email":                                                                      
+      {
+         "description": "Array of emails for user",
+         "type": "array",
+         "items": {
+             "type": "string"
+         },
+         "minItems": 1,
+         "uniqueItems": true
+      }, 
+       "password":
+      {
+         "description": "User's entered password",
+         "type": "string", 
+         "pattern": "(?=.*[!@#$%^&*])"
+      },   
+      "age":
+      {
+         "description": "Age of user",
+         "type": "number",
+         "minimum": 14,
+         "maximum": 130
+      },
+      "phone #":
+      {
+         "description": "A person's preferred phone number",
+         "pattern": "/^(\([0-9]{3}\)\s*|[0-9]{3}\-)[0-9]{3}-[0-9]{4}$/"
+      }            
+   },
+   "required": ["fName", "lName", "email", "password"]    
+}
