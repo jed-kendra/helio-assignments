@@ -47,7 +47,7 @@
       "phone #":
       {
          "description": "A person's preferred phone number",
-         "pattern": "/^(\([0-9]{3}\)\s*|[0-9]{3}\-)[0-9]{3}-[0-9]{4}$/"
+         "pattern": "^\\d-\\d-\\d$"
       }            
    },
    "required": ["fName", "lName", "email", "password"]    
